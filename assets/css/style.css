@@ -1,12 +1,13 @@
 body {
     margin: 0;
     padding: 0;
-    height: 0 auto;
+    /* height: 0 auto; */
     font-size: 16px;
     line-height: 2;
     color: #777;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     background-image: url("../images/concrete_seamless.png");
+    
 
 }
 
@@ -30,7 +31,7 @@ h2, h3 {
     width: 100%;
     max-width: 960px;
     margin: 0 auto;
-    clear: none;
+    clear: both;
     
 }
 
@@ -64,7 +65,7 @@ h2, h3 {
     border: 1px solid #dddddd;
     background: #ffffff;
     margin-bottom: 30px;
-    clear: none;
+    clear: both;
 }
 
 .about-me-header {
@@ -236,13 +237,13 @@ input[type=submit] {
 }
 
 .footer {
-    position: relative;
+    /* position: fixed; */
     width: 100%;
     height: 100px;
     margin-top: 20px;
     background-color: #666666;
     border-top: 10px solid #cccccc;
-    
+    clear: both;
 }
 
 .footer-text {
