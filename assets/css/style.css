@@ -24,11 +24,12 @@ h2, h3 {
     font-size: 22px;
     font-family: Georgia, Times, "Times New Roman", serif;
     font-weight: 600;
-    color; #4aaaa5;
+    color: #4aaaa5;
+    text-decoration: none;
 }
 
 .container {
-    width: 100%;
+    width: 80%;
     max-width: 960px;
     margin: 0 auto;
     clear: both;
@@ -106,6 +107,7 @@ h2, h3 {
     width: 274px;
     margin: 20px 0 25px;
     overflow: auto;
+    
 }
 
 .box h3 {
@@ -120,7 +122,6 @@ h2, h3 {
     text-align: center;
     font-family:  Georgia, Times, "Times New Roman", serif; 
     background: #4aaaa5;
-
 }
 
 /* Contact Form */
