@@ -87,6 +87,18 @@ h2, h3 {
 
 /* portfolio section */
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover 
+{
+     color: white; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+
 .showcase-line {
     border: 1.5px solid #cccccc;
     margin-top: 10px   
